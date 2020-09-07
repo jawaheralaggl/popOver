@@ -47,6 +47,16 @@ class ViewController: UIViewController {
         pageView.currentPageIndicatorTintColor = .black
         pageView.pageIndicatorTintColor = .lightGray
         
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(Tapped))
+        tap.numberOfTapsRequired = 1
+        view.addGestureRecognizer(tap)
+    }
+    
+    
+    @objc func Tapped() {
+        self.popOver.removeFromSuperview()
+        view.removeBlur()
     }
     
     
@@ -57,6 +67,8 @@ class ViewController: UIViewController {
         self.popOver.center = self.view.center
         
     }
+    
+    
     
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
@@ -86,12 +98,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
-    //    @IBAction func closePop(_ sender: Any) {
-    ////        self.popOver.removeFromSuperview()
-    ////        view.removeBlur()
-    //    }
     
 }
 
