@@ -13,6 +13,10 @@
 		A540DC922502EFA9008FF3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A540DC902502EFA9008FF3F2 /* Main.storyboard */; };
 		A540DC942502EFAF008FF3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A540DC932502EFAF008FF3F2 /* Assets.xcassets */; };
 		A540DC972502EFAF008FF3F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A540DC952502EFAF008FF3F2 /* LaunchScreen.storyboard */; };
+		A540DC9F2502F3CF008FF3F2 /* blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540DC9E2502F3CF008FF3F2 /* blur.swift */; };
+		A540DCA22502F497008FF3F2 /* iconsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540DCA02502F497008FF3F2 /* iconsCell.swift */; };
+		A540DCA32502F497008FF3F2 /* iconsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A540DCA12502F497008FF3F2 /* iconsCell.xib */; };
+		A540DCC925063F7F008FF3F2 /* hexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540DCC825063F7F008FF3F2 /* hexColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A540DC932502EFAF008FF3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A540DC962502EFAF008FF3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A540DC982502EFAF008FF3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A540DC9E2502F3CF008FF3F2 /* blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blur.swift; sourceTree = "<group>"; };
+		A540DCA02502F497008FF3F2 /* iconsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iconsCell.swift; sourceTree = "<group>"; };
+		A540DCA12502F497008FF3F2 /* iconsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iconsCell.xib; sourceTree = "<group>"; };
+		A540DCC825063F7F008FF3F2 /* hexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				A540DC8C2502EFA9008FF3F2 /* SceneDelegate.swift */,
 				A540DC8E2502EFA9008FF3F2 /* ViewController.swift */,
 				A540DC902502EFA9008FF3F2 /* Main.storyboard */,
+				A540DCA02502F497008FF3F2 /* iconsCell.swift */,
+				A540DCA12502F497008FF3F2 /* iconsCell.xib */,
+				A540DCC825063F7F008FF3F2 /* hexColor.swift */,
+				A540DC9E2502F3CF008FF3F2 /* blur.swift */,
 				A540DC932502EFAF008FF3F2 /* Assets.xcassets */,
 				A540DC952502EFAF008FF3F2 /* LaunchScreen.storyboard */,
 				A540DC982502EFAF008FF3F2 /* Info.plist */,
@@ -127,6 +139,7 @@
 			files = (
 				A540DC972502EFAF008FF3F2 /* LaunchScreen.storyboard in Resources */,
 				A540DC942502EFAF008FF3F2 /* Assets.xcassets in Resources */,
+				A540DCA32502F497008FF3F2 /* iconsCell.xib in Resources */,
 				A540DC922502EFA9008FF3F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +153,9 @@
 			files = (
 				A540DC8F2502EFA9008FF3F2 /* ViewController.swift in Sources */,
 				A540DC8B2502EFA9008FF3F2 /* AppDelegate.swift in Sources */,
+				A540DC9F2502F3CF008FF3F2 /* blur.swift in Sources */,
+				A540DCC925063F7F008FF3F2 /* hexColor.swift in Sources */,
+				A540DCA22502F497008FF3F2 /* iconsCell.swift in Sources */,
 				A540DC8D2502EFA9008FF3F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
