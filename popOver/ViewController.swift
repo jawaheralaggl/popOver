@@ -87,12 +87,6 @@ class ViewController: UIViewController {
     }
     
     
-    
-    //    @IBAction func closePop(_ sender: Any) {
-    ////        self.popOver.removeFromSuperview()
-    ////        view.removeBlur()
-    //    }
-    
 }
 
 extension ViewController: UICollectionViewDelegate {

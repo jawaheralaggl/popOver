@@ -32,7 +32,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.66666668653488159" green="0.56271793283128246" blue="0.15525763643102716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="BAu-t2-yNC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dKZ-qO-NNo"/>
                             <constraint firstItem="BAu-t2-yNC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jTP-VH-87D"/>
@@ -53,7 +53,7 @@
                     <subviews>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dT8-WH-69w">
                             <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
-                            <color key="backgroundColor" red="0.30967053770000003" green="0.47210192680000002" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="Toj-Wu-IOw">
                                 <size key="itemSize" width="50" height="50"/>
                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -76,7 +76,7 @@
                             <rect key="frame" x="130" y="118" width="39" height="32"/>
                         </pageControl>
                     </subviews>
-                    <color key="backgroundColor" red="0.30967053770000003" green="0.47210192680000002" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <constraints>
                         <constraint firstItem="dT8-WH-69w" firstAttribute="top" secondItem="VOG-A9-4Fq" secondAttribute="top" id="HoM-35-6op"/>
                         <constraint firstItem="aym-Le-Ps5" firstAttribute="trailing" secondItem="dT8-WH-69w" secondAttribute="trailing" id="NYb-YS-TW1"/>
